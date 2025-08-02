@@ -54,12 +54,12 @@ int X = a + b;
 int Y = a-b;
 int Z = a * b;
 double W = a / b;
-int Z = a % b;
+int V = a % b;
 
 // Output the results
     print('Sum: $X'); // Add the sum here
     print('Difference: $Y'); // Add the difference here
     print('Product: $Z'); // Add the product here
     print('Quotient: $W'); // Add the quotient here
-    print('Remainder: $Z'); // Add the remainder here
+    print('Remainder: $V'); // Add the remainder here
 }
