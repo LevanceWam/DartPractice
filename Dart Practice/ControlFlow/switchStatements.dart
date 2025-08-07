@@ -95,7 +95,7 @@ void main() {
         dayName ='Saturday';
         break;
       case 7:
-        dayName ='Sunday';
+        dayName ='Sundays';
         break;
       default:
       dayName ='Invalid Day';
