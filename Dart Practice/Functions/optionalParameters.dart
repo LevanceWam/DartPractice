@@ -45,8 +45,9 @@ The function should return a formatted greeting string.
 
 // TODO: Define the greetUser function here
 
- greetUser(String name, [String greeting = 'Hello', String punctuation = '!']){
-    print('$greeting, $name'+'$punctuation');
+ greetUser(String name, [String greeting ='Hello', String punctuation = '!']){
+    String message = '$greeting, $name'+'$punctuation';
+    return message;
 }
 
 void main() {
